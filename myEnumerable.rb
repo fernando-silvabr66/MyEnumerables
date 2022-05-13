@@ -1,4 +1,4 @@
-module Enumerables
+module eNumerables
   def all?
     each { |num| return false unless yield num }
     true

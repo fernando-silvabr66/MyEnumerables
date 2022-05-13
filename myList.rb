@@ -1,5 +1,4 @@
 require_relative 'myEnumerable'
-
 class MyList
   include Enumerables
 
