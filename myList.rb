@@ -1,6 +1,6 @@
 require_relative 'myEnumerable'
 
-class MyListEnum
+class MyList
   include Enumerables
 
   def initialize(*args)
@@ -16,7 +16,7 @@ class MyListEnum
   end
 end
 
-list = MyListEnum.new(1, 2, 3, 4)
+list = MyList.new(1, 2, 3, 4)
 list.all? { |e| e < 5 }
 list.all? { |e| e > 5 }
 
